@@ -9,11 +9,12 @@ import Dashboard from './components/dashboard/Dashboard';
 
 const routes =
     <Route path={'/'} components={Page}>
-        <IndexRedirect to="/app/form/enen" />
+        <IndexRedirect to="/app/dashboard/index" />
         <Route path={'app'} component={App}>
             <Route path={'form'}>
                 <Route path="enen" component={Test}></Route>
             </Route>
+            <Route path={'dashboard/index'} component={Dashboard} />
         </Route>
     </Route>;
 

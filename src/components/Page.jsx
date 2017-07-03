@@ -8,7 +8,6 @@ class Page extends Component {
         return (
             <div style={{height: '100%'}}>
                 {this.props.children}
-                enenenenen
             </div>
         )
 
